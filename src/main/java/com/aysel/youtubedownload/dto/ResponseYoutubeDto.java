@@ -1,5 +1,11 @@
 package com.aysel.youtubedownload.dto;
 
-public class ResponseYoutubeDto {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
+@AllArgsConstructor
+@Getter
+public class ResponseYoutubeDto {
+    private String title;
+    private String thumbnailUrl;
 }
